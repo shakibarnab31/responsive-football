@@ -54,9 +54,7 @@ body{
     text-decoration: none;
     color: white;
 }
-.web-banner{
-    /* margin-top: 153px; */
-}
+
 .web-banner img{
     width: 556px;
     height: 438px;
@@ -85,3 +83,26 @@ body{
     height: 256px;
 }
 
+/* ---------------------
+     footer styles
+     ------------------ */
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-bottom: 63px;
+}
+     
+     
+     .footer-logo img{
+         width: 483px;
+         height: 110px;
+}
+.copyright{
+    font-size: 18px;
+}
+    
+         
+     
