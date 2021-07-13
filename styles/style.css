@@ -9,6 +9,11 @@ body{
     margin: 0;
 }
 
+.container{
+     margin-top: 70px;
+     margin-left: 180px;
+     margin-right: 210px;
+}
 /*--------------------
     Header Styles 
     ------------------*/
@@ -53,5 +58,24 @@ body{
 .web-banner img{
     width: 556px;
     height: 438px;
+}
+ 
+/*-------------------
+   players styles
+   ------------------- */
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}  
+.player{
+    box-shadow:5px 5px 20px lightgray;
+    padding: 15px;
+} 
+.player img{
+    width: 300px;
+    height: 256px;
 }
 
