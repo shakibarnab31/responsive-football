@@ -126,21 +126,35 @@ body{
 @media only screen and (max-width:688px) {
     .container{
         width: 100%;
+    }.web-title h1{
+        font-size: 150px;
     }
+    .web-info{
+        margin-left: 10px;
+    }
+    .
+   
     .players{
         grid-template-columns: repeat(1,1fr);
+        
     }
+    
     .web-container{
         grid-template-columns: repeat(1,1fr);
         
     }
-    .web-banner{
-        margin-top: 30px;
+    .web-banner img{ 
+        /* width: 329px;
+        height: 260px; */
+        width: 800px;
+        height: 500px;
+        padding-top: 50px;
     }
     .web-container:hover  .web-banner img{
         transform: scale(1.4);
         transition: transform 2s ease ;
     }
+    
     
 }
      
