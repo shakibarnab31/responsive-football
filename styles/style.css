@@ -5,6 +5,9 @@ header{
     font-family: 'Poppins', sans-serif;
     
     background-color: #2D25A0;
+    width: 1520px;
+    
+    
 }
 body{
     margin: 0;
@@ -13,8 +16,11 @@ body{
 
 .container{
      margin-top: 70px;
-     margin-left: 180px;
-     margin-right: 210px;
+     width: 1050;
+     padding-left: 180px;
+     padding-right: 210px;
+     /* margin-left: 180px;
+     margin-right: 210px; */
 }
 /*--------------------
     Header Styles 
@@ -24,12 +30,13 @@ body{
 .web-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    width: 1143px;
     margin-left: 156px;
     margin-right: 141px;
     padding-top: 153px;
     padding-bottom: 86px;
-    padding-left: 10px;
-   
+    
+    
 }
 .web-title {
     
@@ -116,5 +123,24 @@ body{
     font-size: 18px;
 }
     
-         
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .players{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .web-container{
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .web-banner{
+        margin-top: 30px;
+    }
+    .web-container:hover  .web-banner img{
+        transform: scale(1.4);
+        transition: transform 2s ease ;
+    }
+    
+}
      
